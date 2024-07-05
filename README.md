@@ -24,7 +24,7 @@ src/main/java/com/gianidev/springfirestore/
 │ └── RecipeDocument.java
 ├── service
 │ └── RecipeService.java
-└── utils
+├── utils
 │ └──  RecipeMapper.java
 └──  SpringfirestoreApplication.java
 ```
