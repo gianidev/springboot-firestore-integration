@@ -106,6 +106,27 @@ Update a recipe by id.
 **Response:** No response is returned.
 
 -----
+
+### Create Recipe
+
+**Endpoint:** `POST /recipes`
+
+Create a new recipe
+
+**Body request:**
+
+```json
+{
+    "id": "3",
+    "name": "Simple Pizza",
+    "ingredients": ["Pizza Dough", "Tomato Sauce"],
+    "instructions": "Spread sauce on dough. Bake in oven."
+}
+```
+
+**Response:** No response is returned.
+
+-----
 ### Delete Recipe By Id
 
 **Endpoint:** `DELETE /recipes/{id}`
