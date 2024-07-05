@@ -99,7 +99,7 @@ Update a recipe by id.
     "id": "1",
     "name": "Spaghetti Carbonara",
     "ingredients": ["Spaghetti", "Eggs", "Pancetta", "Parmesan Cheese", "Black Pepper"],
-    "instructions": "Cook spaghetti. Fry pancetta. Mix eggs and cheese. Combine all with pasta."
+    "instructions": "Cook spaghetti. Fry pancetta. Mix eggs and cheese. Combine all with pasta. Serve."
 }
 ```
 
@@ -111,7 +111,7 @@ Update a recipe by id.
 
 **Endpoint:** `POST /recipes`
 
-Create a new recipe
+Create a new recipe.
 
 **Body request:**
 
